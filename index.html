@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portofolio</title>
+</head>
+<body>
+
+<header class="header">
+        <a href="#" class="logo">Amie.</a>
+
+    <div class="topnavbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#aboutme">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contactme">Contact Me</a>
+    </div>
+
+</header>
+<div class="container">
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, It's Amie</h1>
+            <div class="animation">
+                <h3 class="text">I'm a Web Developer</h3>
+            </div>
+            <p>Hello! I'm Amie, a passionate web developer and current undergraduate student with a love for creating dynamic and responsive websites. 
+                Feel free to explore my portfolio to see the projects I've worked on and the skills I've developed.
+            </p>
+            <div class="button-box">
+                <a href="#aboutme">About Me</a>
+            </div>
+        <div class="home-icon">
+            <a href="https://github.com/saraniz" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/amandi-thathsarani-517aa12b6/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+        </div>
+        </div>
+
+        <div class="home-img">
+            <div class="glowing-circle">
+                <div class="image">
+                    <img id='me' src="me (1).png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="aboutme">
+        <div class="aboutmecontent">
+            <div class="row">
+                <div class="about-col-1">
+                    <img id="me2" src="me2.png" >
+                </div>
+                    
+                <div class="about-col-2">
+                    <h2>About Me</h2>
+                    <p>Hey there!.I am currently a second year undergraduate at University of Sri Jayawardenepura, pursing a Bachelor of Computing(Honours) in Software Engineering.My academic journey is complemented by various courses that align with and enhance my degree, allowing me to deepen my expertise in Software development and engineering principles.I'm particularly interested in web development, mobile development, UI//UX design,data science and AI. 
+                    In addition to my studies, I have a keen interest in video editing and article writing.</p>
+                        
+                    <div class="tabs">
+                        <p class="tab-links active-link" onclick="opentab('mydetails')">My Details</p>
+                        <p class="tab-links" onclick="opentab('myskills')">My Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('other')">Other</p>
+                        
+                    </div>
+
+                   <div class="tab-con active-tab" id="mydetails">
+                        <ul>
+                            <li><span>Name: Amandi Thathsarani</span></li>
+                            <li><span>Profession: undergraduate</span></li>
+                            <li><span>Date of Birth: January,08,2003</span></li>
+                            <li><span>Age: 21 Years Old</span></li>
+                            <li><span>Maritial Status: Unmarried</span></li>
+                            <li><span>Nationality: Sri Lankan</span></li>
+
+                        </ul>
+                   </div>
+
+                   <div class="tab-con" id="myskills">
+                    <ul>
+                        <li><span>Coding Skills<br><br>C/C++<br>Java<br>Database Management<br>SQL<br>HTML & CSS<br>JavaScript</span></li>
+                        <li><span>Technical Skills<br><br>Canva<br>Video Editing<br>Content Writing</span></li>
+
+                    </ul>
+                    </div>
+
+                    <div class="tab-con" id="education">
+                        <ul>
+                            <li><span>2023-Present<br>Currently reading a B.comp(Honours) Software Engineering degree at University of Sri Jayawardenepura</span></li>
+                            <li><span>2022-2023<br>Followed Trainee - Full Stack Developer course from Open Learning Platform in University of Moratuwa </span></li>
+                            <li><span>2019-2021<br>Ferguson High School|Ratnapura</span></li>
+                            <li><span>201-2018<br>Karawita Central College</span></li>
+                       
+                        </ul>
+                   </div>
+
+                   <div class="tab-con" id="experience">
+                    <ul>
+                        <li><span>2023<br>Secretary of the IEEXtreme 17.0 competition organizing team at the University of Sri Jayawardenepura</span></li>
+                        <li><span>2024-Present<br>Assistant Secretary of the ACS at the University of Sri Jayawardenepura</span></li>
+                       
+                    </ul>
+                    </div>
+
+                    <div class="tab-con" id="other">
+                    <ul>
+                    <li><span>Completed AI course at Simplilearn</span></li>
+                    <li><span>Completed Java course at freecodecamp.org</span></li>
+                    <li><span>Completed HTML & CSS course at Codecademy</span></li>
+                   
+
+                    </ul>
+                     </div>
+                     
+                </div>
+                    
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="projectcon">
+            <h2>My Projects</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="new.png" >
+                        <div class="layer">
+                            <h3>Calculator</h3>
+                            <p>A simple Java-based calculator that performs basic arithmetic operations. This project is ideal for beginners learning the fundamentals of Java programming.</p>
+                            
+                        </div>
+                    </div>
+    
+                    <div class="work">
+                        <img src="new.png" >
+                        <div class="layer">
+                            <h3>Temperature Convertor</h3>
+                            <p> A Java and SQL-based application that converts temperatures between different units. It demonstrates the integration of Java with SQL for data management.</p>
+                        </div>
+                    </div>
+    
+                    <div class="work">
+                        <img src="new.png" >
+                        <div class="layer">
+                            <h3>Puzzle Game</h3>
+                            <p>A puzzle game developed using Java and SQL. This project highlights the use of Java for game development and SQL for storing game data.</p>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+    </section>
+
+   
+
+
+    <section id="contactme">
+       
+        <h2>Get In Touch</h2>
+                <div class="roww">
+                    <div class="con-left">
+                        <p id="pa1">I would love to hear from you! Whether you have a question, a project proposal, or simply want to say hello, feel free to get in touch. You can reach me via email, phone, or connect with me on social media. I am always open to discussing new opportunities, collaborations, or any feedback you might have.</p>
+                        <p id="icon1"><i class='bx bxs-envelope'></i>amandithathsaraniuni1@gmail.com</p>
+                        <p id="icon2"><i class='bx bxs-phone-call' ></i>076 170 8231</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/saraniz" target="_blank"><i class='bx bxl-github'></i></a>
+                            <a href="https://www.linkedin.com/in/amandi-thathsarani-517aa12b6/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+                        </div>
+                    </div>
+                    <div class="con-right">
+                        <form class="contactForm">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                            <button class="sbtn"></a>Submit</button>
+
+                        </form>
+                    </div>
+                    
+                </div>
+        
+    </section>
+
+    <section id="footers">
+        <div class="footer">
+            <p id="footercopyright">Copyright &copy:2024: Designed by<span class="designer">Amie</span></p>
+        </div>
+    </section>
+    
+
+
+</div>
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcon = document.getElementsByClassName("tab-con");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+
+            for(tabcons of tabcon){
+                tabcons.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    
+</body>
+</html>
